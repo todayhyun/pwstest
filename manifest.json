@@ -1,6 +1,11 @@
 {
-  "name": "GitHub",
-  "short_name": "GitHub",
+  "name": "1만시간의법칙",
+  "short_name": "1만시간",
+  "start_url": "./index.html", 
+  "display": "standalone", 
+  "orientation": "portrait", 
+  "theme_color": "#000000", 
+  "background_color": "#ffffff",
   "icons": [
     {
       "sizes": "114x114",
