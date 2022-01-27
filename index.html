@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <link rel="manifest" href="manifest.json" />
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/10000hours.css">
-    <script type="module">
+
+    <link rel="apple-touch-icon" href="img/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/touch-icon-ipad-retina.png">
+
+       <script type="module">
         import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
         const el = document.createElement('pwa-update');
         document.body.appendChild(el);
